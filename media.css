@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1000px){
+    header{
+        font-size:10px;
+    }
+    .forma{
+        height: 350px;
+    }
+    .forma h2{
+        font-size: 15px;
+    }
+    img{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    header{
+        font-size: 10px;
+    }
+    .forma{
+        height:270px;
+        margin-bottom: 10px;
+    }
+    input, select{
+        height: 20px;
+    }
+    .forma h2{
+        font-size: 12px;
+    }
+    .forma p {
+        font-size: 15px;
+    }
+    img{
+        width:80px ;
+        height: 120px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+}
+
+
+

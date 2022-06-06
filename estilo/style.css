@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #049AFF;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+main{
+    background-image: url("../images/people.jpg");
+    background-size: contain;
+    margin-bottom: 5px;
+}
+.forma{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.664);
+    color: black;
+    text-align: left;
+    float: right;
+    padding: 15px;
+    margin: 10px;  
+
+}
+.forma h2{
+    font-size:1.1em;
+    text-transform: uppercase;
+}
+input, select{
+    margin: 5px;
+    width: 95%;
+    height: 40px;
+}
+input[type="submit"]{
+    background-color: #049AFF;
+    color: white;
+    border: none;
+}
+.p2{
+    height: 250px;
+    background-color: rgb(44, 44, 44);
+    clear: right;
+    color: white;
+
+}
+img{
+    text-align: center;
+    width: 120px;
+    height: 200px;
+    float:left;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+p{
+    margin-top: 10px;
+}
+article{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 40px;
+    width: 400px;
+}
+
